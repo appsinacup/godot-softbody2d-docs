@@ -18,3 +18,12 @@ The **DampedSpringJoint** parameters section contains parameters related to the 
 - **Stiffness**: Increase this property to make the softbody less squishy.
 - **Damping**: Increasing this will make the softbody reach the initial state faster, making it less loose.
 - **Rest Length Ratio** and **Length Ratio**: Control the rest length and length properties of the spring joint.
+
+In the **RigidBody** parameters section there is one option that relates to the joints:
+- **Break Distance Ratio**: This is a ratio of when the joint should break. Putting it 0 disables breakable joints. Putting it at 1.5 for example means the joint should break if the two rigidbodies it has are more than 1.5x far away their original distance.
+
+:::note
+
+The break distance ratio is also multiplied by number of connections the rigidbody has. This means a rigidbody that is inside the softbody is less likely to break than a rigidbody from the edge of the shape.
+
+:::

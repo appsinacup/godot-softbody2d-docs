@@ -13,6 +13,12 @@ The actual hierarchy inside the node is as follows:
     - **CollisionShape2D**
     - **Joint2D**
 
-## Shapes properties
+## Shape properties
 
-The **Radius** property configures
+The **Radius** property configures the size of the shape.
+
+The **Shape Type** property configures the shape to be either **Circle** or **Rectangle**.
+
+The **Margin Offset Edge** property configures how much the shapes should be pushed towards the center of the image. Using this usually gives better results if the shapes are just inside the texture, like this:
+
+![Center Image](/img/about-shapes/center.png)

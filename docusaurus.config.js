@@ -67,6 +67,12 @@ const config = {
             label: 'Documentation',
           },
           {
+            href: 'https://github.com/sponsors/appsinacup',
+            label: 'Donate',
+            position: 'right',
+            className: 'header-button-donate'
+          },
+          {
             href: 'https://appsinacup.com',
             label: 'Apps In A Cup',
             position: 'right',
