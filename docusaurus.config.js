@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'SoftBody2D',
   tagline: '2D Softbodies plugin for Godot 4.x',
-  favicon: 'img/softbody2d.ico',
+  favicon: 'img/softbody2d.png',
 
   // Set the production url of your site here
   url: 'https://softbody2d.appsinacup.com',
