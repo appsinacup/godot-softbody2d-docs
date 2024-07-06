@@ -21,27 +21,27 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-        <img 
+        <p style={{textAlign: 'center'}}><img 
           src={animation} 
           alt="loading..." 
           width={256} 
           style={{
             marginRight: '64px', 
             display: 'block', 
+            margin: '0 auto',
             border: 'solid 10px #8da5f3', 
             borderRadius: '10px',
             boxShadow: '0 0 0 4px black'
           }}
-        />
-
-
+        /></p>
+        
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
             Tutorial - 5min ⏱️
           </Link>
-        </div>
+          </div>
       </div>
     </header>
   );
