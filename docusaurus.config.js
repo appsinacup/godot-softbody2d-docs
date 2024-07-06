@@ -68,7 +68,7 @@ const config = {
           },
           {
             href: 'https://appsinacup.com',
-            label: 'Appsinacup',
+            label: 'Apps In A Cup',
             position: 'right',
           },
           {
@@ -103,7 +103,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Appsinacup',
+                label: 'Apps In A Cup',
                 href: 'https://appsinacup.com',
               },
               {
