@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Create a Softbody
 
-A Softbody is squishy body created from an image.
+A Softbody is squishy body created from an image. This tutorial is also available in the GitHub repo as a sample [softbody2d/create-a-softbody](https://github.com/appsinacup/godot-softbody2d/tree/main/samples/softbody2d/create-a-softbody).
 
 ## Create a new SoftBody2D node
 
