@@ -79,6 +79,11 @@ const config = {
             className: 'header-button-donate'
           },
           {
+            href: 'https://appsinacup.com',
+            label: 'Apps In A Cup',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/appsinacup/godot-softbody2d',
             label: 'GitHub',
             position: 'right',
