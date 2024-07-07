@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Joints
 
-## Common Parameters
+Each shape of the softbody is connected through joints.
 
 The **Joint** parameters section contains options to either create **PinJoint2D** or **DampedSpringJoint2D** nodes that connect the **RigidBody2D** nodes togheter.
 
