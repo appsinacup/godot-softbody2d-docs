@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -124,6 +124,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+
+      algolia: {
+        appId: 'HDL5GAYP0P',
+        apiKey: 'f538b5cd448ab287cbf26ecf0b2901c4',
+        indexName: 'softbody2dsinacup',
       },
     }),
 };
