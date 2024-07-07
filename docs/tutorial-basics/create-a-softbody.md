@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Create a Softbody
 
-A Softbody is squishy body created from an image. This tutorial is also available in the GitHub repo as a sample [softbody2d/create-a-softbody](https://github.com/appsinacup/godot-softbody2d/tree/main/samples/softbody2d/create-a-softbody).
+A Softbody is squishy body created from an image. This tutorial is also available in the GitHub repo as a sample [samples/softbody2d/create-a-softbody](https://github.com/appsinacup/godot-softbody2d/tree/main/samples/softbody2d/create-a-softbody).
 
 ## Create a new SoftBody2D node
 
@@ -24,7 +24,7 @@ In case you don't see the node, you probably forgot to [activate the addon](/doc
 
 :::
 
-## Setting a texture
+### Setting a texture
 
 Next, you need to set a **Texture** on the node. For this, click on the **Scene** tab on the left and select our newly created node (usually after creating the node it is already selected):
 

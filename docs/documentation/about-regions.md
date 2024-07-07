@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Regions
 
+## Intro
+
 A softbody is formed out of multiple regions. In order to view the regions, enable the **Draw Regions** checkbox:
 ![regions](/img/about-regions/regions.png)
 

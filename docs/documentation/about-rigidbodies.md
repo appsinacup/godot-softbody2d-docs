@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Rigidbodies
 
+## Intro
+
 Each shape of the softbody has as parent a rigidbody. The actual hierarchy inside the node is as follows:
 
 - **RigidBody2D**: contains
