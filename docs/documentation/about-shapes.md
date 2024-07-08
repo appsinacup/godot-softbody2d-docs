@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Shapes
@@ -16,10 +16,10 @@ The actual hierarchy inside the node is as follows:
 
 ## Shape properties
 
-The **Radius** property configures the size of the shape.
+The **Shape** parameters section contains:
 
-The **Shape Type** property configures the shape to be either **Circle** or **Rectangle**.
-
-The **Margin Offset Edge** property configures how much the shapes should be pushed towards the center of the image. Using this usually gives better results if the shapes are just inside the texture, like this:
+- **Radius** property configures the size of the shape.
+- **Shape Type** property configures the shape to be either **Circle** or **Rectangle**.
+- **Margin Offset Edge** property configures how much the shapes should be pushed towards the center of the image. Using this usually gives better results if the shapes are just inside the texture, like this:
 
 ![Center Image](/img/about-shapes/center.png)

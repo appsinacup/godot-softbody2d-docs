@@ -33,15 +33,12 @@ The outline of the shape can be viewed by going to the **UV editor**:
 
 This outline can be changed by updating some properties from the **SoftBody2D** node.
 
-The **Image** parameters section contains:
+The **Region** parameters section contains:
 
 - **Exclude Texture**: Set this to a texture of same size as the original texture. The generated outline of this will be used to cut from the initial outline generated, creating a softbody with a hole.
 - **Texture Epsilon**: The lower it is the more points the outline will have
 - **Min Alpha**: The min amount of alpha to consider solid contents in the texture.
 - **Margin Pixels**: This adds a margin to the generated outline.
-
-The **Polygon** parameters section contains:
-- **Polygon Offset**: Moves where the center of the checkers pattern is.
 - **Margin Offset**: Moves the centers of the regions. This is useful to change the center of the shapes to be closer to the center of the texture.
 - **Min Area**: The area of the smallest region to generate. Making this bigger will make sure that there are no small regions generated.
 
