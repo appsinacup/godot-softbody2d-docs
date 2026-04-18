@@ -24,7 +24,7 @@ function HomepageHeader() {
         <p style={{textAlign: 'center'}}><img 
           src={animation} 
           alt="loading..." 
-          width={256} 
+          width={512} 
           style={{
             marginRight: '64px', 
             display: 'block', 
